@@ -13,7 +13,7 @@ public class CarInventory {
 
     private List<Car> cars;
 
-    public static final AtomicLong ids = new AtomicLong(1);
+    public static final AtomicLong ids = new AtomicLong(0);
 
     @PostConstruct
     void initialize() {
