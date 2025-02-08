@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 @Singleton
 public class InMemoryReservationsRepository implements ReservationsRepository {
 
-    private final AtomicLong ids = new AtomicLong(0);
+    private final AtomicLong ids = new AtomicLong(1);
     private final List<Reservation> store = new CopyOnWriteArrayList<>();
 
 
